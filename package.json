@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode=development",
-    "prod": "webpack --mode=production"
+    "dev": "rm -rf dist/*; webpack --mode=development",
+    "prod": "rm -rf dist/*; webpack --mode=production"
   },
   "keywords": [],
   "author": "",
