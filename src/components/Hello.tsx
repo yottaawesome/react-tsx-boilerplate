@@ -1,4 +1,5 @@
-import * as React from "react";
+import * as React from 'react';
+import * as styles from './styles.module.scss';
 
 export interface HelloProps { }
 
@@ -6,6 +7,6 @@ export interface HelloProps { }
 // State is never set so we use the '{}' type.
 export class Hello extends React.Component<HelloProps, {}> {
     render() {
-        return <h1>Hello from React!!</h1>;
+        return <h1 className={styles.root}>Hello from React!!</h1>;
     }
 }
