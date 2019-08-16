@@ -11,9 +11,11 @@ class App extends React.Component {
           <div>
             <nav>
               <Link to="/">Home</Link>
+              <Link to="/Two">Two</Link>
             </nav>
             <Switch>
               <Route exact path="/" component={Hello} />
+              <Route exact path="/Two" component={Hello} />
             </Switch>
           </div>
         </Router>
