@@ -10,6 +10,6 @@ The `src` folder contains a basic example app to get started.
 
 1. Clone this repo.
 2. Run npm install to install dependencies.
-3. Run npm run dev to build the index.tsx file in dev mode, or run npm run prod to build in prod mode. Note that the prod build extracts the transpiled CSS into dist/main.css using mini-css-extract-plugin, whereas the dev build bundles it into the JS file.
-4. Open helloworld.html to confirm the file was built successfully. You may consider adding a dev-server to your copy of this project.
+3. Run npm run dev to build the `src/index.tsx` file in dev mode, or run npm run prod to build in prod mode. Note that the prod build extracts the transpiled CSS into `dist/main.css` using `mini-css-extract-plugin`, whereas the dev build bundles it into the JS file.
+4. Open `helloworld.html` to confirm the file was built successfully. You may consider adding a dev-server to your copy of this project.
 5. Make whatever additional changes you need for your project.
