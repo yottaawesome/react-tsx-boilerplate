@@ -21,6 +21,10 @@ module.exports = (env, argv) => {
             extensions: ['.js', '.ts', '.tsx']
         },
 
+        devServer: {
+            contentBase: './dist'
+        },
+
         module: {
             rules: [
                 {
