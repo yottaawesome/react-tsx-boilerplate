@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "rm -rf dist/*; webpack --mode=development --watch",
     "prod": "rm -rf dist/*; webpack --mode=production",
-    "start": "cp ./src/index.html dist/index.html; webpack-dev-server --open --hot --port 8080"
+    "start": "./scripts/start"
   },
   "keywords": [],
   "author": "",
