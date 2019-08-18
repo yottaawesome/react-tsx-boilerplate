@@ -15,3 +15,7 @@ The `src` folder contains a basic example app to get started.
     2. `npm run prod` to build in `production` mode. Note that the prod build extracts the transpiled CSS into `dist/main.css` using `mini-css-extract-plugin`, whereas the dev build bundles it into the JS file.
     3. `npm run start` to start the dev-server.
 * Make whatever additional changes you need for your project.
+
+## Debugging
+
+Debugging settings are included for VS Code; you'll need the [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) extension.
