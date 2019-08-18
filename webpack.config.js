@@ -1,5 +1,6 @@
 const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = (env, argv) => {
     let isDevelopment = (process.env.NODE_ENV = argv['mode']) !== 'production'
@@ -9,7 +10,7 @@ module.exports = (env, argv) => {
 
         output: {
             path: path.resolve(__dirname, 'dist'),
-            filename: 'main.js'
+            filename: '[hash].[name].js'
         },
 
         // Enable sourcemaps for debugging webpack's output.
@@ -91,6 +92,9 @@ module.exports = (env, argv) => {
                 // Options similar to the same options in webpackOptions.output
                 // both options are optional
                 filename: "main.css"
+            }),
+            new HTMLWebpackPlugin({
+                template: path.join(__dirname, './src/index.html')
             })
         ],
 
