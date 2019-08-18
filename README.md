@@ -8,8 +8,10 @@ This repository is similar to my [latest-inferno-boilerplate](https://github.com
 
 The `src` folder contains a basic example app to get started.
 
-1. Clone this repo.
-2. Run npm install to install dependencies.
-3. Run npm run dev to build the `src/index.tsx` file in dev mode, or run npm run prod to build in prod mode. Note that the prod build extracts the transpiled CSS into `dist/main.css` using `mini-css-extract-plugin`, whereas the dev build bundles it into the JS file.
-4. Open `helloworld.html` to confirm the file was built successfully. You may consider adding a dev-server to your copy of this project.
-5. Make whatever additional changes you need for your project.
+* Clone this repo.
+* Run `npm install` to install dependencies.
+* Run one of the following commands:
+    1. `npm run dev` to build the app in `development` mode.
+    2. `npm run prod` to build in `production` mode. Note that the prod build extracts the transpiled CSS into `dist/main.css` using `mini-css-extract-plugin`, whereas the dev build bundles it into the JS file.
+    3. `npm run start` to start the dev-server.
+* Make whatever additional changes you need for your project.
