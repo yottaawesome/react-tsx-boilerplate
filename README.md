@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is similar to my [latest-inferno-boilerplate](https://github.com/yottaawesome/latest-inferno-boilerplate), but for React, WebPack and TypeScript. It comes with `react-router-dom` and modular SCSS support set up, but does not come with Redux, Immutable.js, and the like. You can add support for these if you want, but I chose not to because I think there are [frequently](https://www.npmjs.com/package/brainlet) [better](https://dev.to/jaffparker/you-might-not-need-redux-k4e) [alternatives](https://dev.to/polluterofminds/why-you-probably-don-t-need-redux-399o) to the Redux/React-Redux/Immutable paradigm, [if you even need Redux at all](https://medium.com/@blairanderson/you-probably-dont-need-redux-1b404204a07f).
+This repository is similar to my [latest-inferno-boilerplate](https://github.com/yottaawesome/latest-inferno-boilerplate), but for React, WebPack and TypeScript. It comes with `react-router-dom` and modular SCSS support set up, but does not come with Redux. Redux is a great tool, but I chose not to add it here because this is a minimal boilerplate repo, and I think there's a lot of confusion around Redux's use case, which is mainly apps with [complex workflows and state management](https://dev.to/polluterofminds/why-you-probably-don-t-need-redux-399o). Simple React apps receive a lot of added complexity for little tangible benefit from Redux, which I think is the origin of a lot of "excessive Redux boilerplate" complaints.
 
 ## Using the code
 
