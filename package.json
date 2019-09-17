@@ -8,6 +8,10 @@
     "prod": "rm -rf dist/*; webpack --mode=production",
     "start": "./scripts/start"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yottaawesome/react-tsx-boilerplate.git"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
