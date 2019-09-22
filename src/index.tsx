@@ -1,8 +1,12 @@
+import 'core-js';
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { Route, HashRouter as Router, Switch, Link } from 'react-router-dom';
 
-import { Hello } from "./components/Hello";
+import {
+  HelloOne,
+  HelloTwo
+} from './components';
 
 class App extends React.Component {
     render() {
@@ -14,8 +18,8 @@ class App extends React.Component {
               <Link to="/Two">Two</Link>
             </nav>
             <Switch>
-              <Route exact path="/" component={Hello} />
-              <Route exact path="/Two" component={Hello} />
+              <Route exact path="/" component={HelloOne} />
+              <Route exact path="/Two" component={HelloTwo} />
             </Switch>
           </div>
         </Router>

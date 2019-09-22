@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/yottaawesome/react-tsx-boilerplate.svg?branch=master)](https://travis-ci.org/yottaawesome/react-tsx-boilerplate)
+
 # React TSX Boilerplate
 
 ## Introduction

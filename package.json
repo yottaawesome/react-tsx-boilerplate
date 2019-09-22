@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "rm -rf dist/*; webpack --mode=development --watch",
-    "prod": "rm -rf dist/*; webpack --mode=production",
-    "start": "./scripts/start"
+    "build-dev": "rm -rf dist/*; webpack --mode=development",
+    "build-prod": "rm -rf dist/*; webpack --mode=production",
+    "start": "./scripts/start",
+    "test": ""
   },
   "repository": {
     "type": "git",
@@ -37,8 +38,10 @@
     "webpack-dev-server": "^3.8.1"
   },
   "dependencies": {
+    "core-js": "^3.2.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-router-dom": "^5.0.1"
+    "react-router-dom": "^5.0.1",
+    "save": "^2.4.0"
   }
 }
