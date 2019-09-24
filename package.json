@@ -30,7 +30,7 @@
     "sass-loader": "8.0.0",
     "source-map-loader": "^0.2.4",
     "style-loader": "1.0.0",
-    "ts-loader": "^6.1.0",
+    "ts-loader": "^6.1.2",
     "typescript": "^3.6.3",
     "url-loader": "^2.1.0",
     "webpack": "^4.40.2",
