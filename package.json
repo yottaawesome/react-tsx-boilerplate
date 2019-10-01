@@ -6,7 +6,7 @@
   "scripts": {
     "build-dev": "rm -rf dist/*; webpack --mode=development",
     "build-prod": "rm -rf dist/*; webpack --mode=production",
-    "start": "./scripts/start",
+    "start": "rm -rf dist./*; webpack-dev-server --hot --port 8080;",
     "test": ""
   },
   "repository": {
@@ -17,7 +17,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/react": "^16.9.3",
+    "@types/react": "^16.9.4",
     "@types/react-dom": "^16.9.1",
     "@types/react-router-dom": "^5.1.0",
     "css-loader": "3.2.0",
@@ -30,7 +30,7 @@
     "sass-loader": "8.0.0",
     "source-map-loader": "^0.2.4",
     "style-loader": "1.0.0",
-    "ts-loader": "^6.1.2",
+    "ts-loader": "^6.2.0",
     "typescript": "^3.6.3",
     "url-loader": "^2.1.0",
     "webpack": "^4.41.0",
@@ -39,9 +39,9 @@
   },
   "dependencies": {
     "core-js": "^3.2.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-router-dom": "^5.1.0",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-router-dom": "^5.1.2",
     "save": "^2.4.0"
   }
 }

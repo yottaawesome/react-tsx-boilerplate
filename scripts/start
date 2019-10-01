@@ -1,6 +1,0 @@
-rm -rf dist./*
-cp ./src/index.html dist/index.html; 
-cp ./node_modules/react/umd/react.development.js ./dist/react.development.js;
-cp ./node_modules/react-dom/umd/react-dom.development.js ./dist/react-dom.development.js; 
-cp ./node_modules/react-router-dom/umd/react-router-dom.js ./dist/react-router-dom.js;
-webpack-dev-server --open --hot --port 8080;
