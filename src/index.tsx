@@ -1,7 +1,12 @@
 import 'core-js';
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { Route, HashRouter as Router, Switch, Link } from 'react-router-dom';
+import {
+  Route,
+  HashRouter as Router,
+  Switch,
+  Link 
+} from 'react-router-dom';
 
 import {
   HelloOne,
@@ -9,7 +14,7 @@ import {
 } from './components';
 
 class App extends React.Component {
-    render() {
+    render(): JSX.Element {
       return (
         <Router>
           <div>
