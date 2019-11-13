@@ -1,6 +1,7 @@
 const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HTMLWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = (env, argv) => {
     let isDevelopment = (process.env.NODE_ENV = argv['mode']) !== 'production'
@@ -88,6 +89,7 @@ module.exports = (env, argv) => {
         },
 
         plugins: [
+            new CleanWebpackPlugin(),
             new MiniCssExtractPlugin({
                 // Options similar to the same options in webpackOptions.output
                 // both options are optional

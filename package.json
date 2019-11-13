@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-dev": "rm -rf dist/*; webpack --mode=development",
-    "build-prod": "rm -rf dist/*; webpack --mode=production",
-    "start": "rm -rf dist./*; webpack-dev-server --hot --port 8080;",
+    "build-dev": "webpack --mode=development",
+    "build-prod": "webpack --mode=production",
+    "start": "webpack-dev-server --hot --port 9090;",
     "test": "",
     "lint": "npx eslint --ext .ts,tsx ."
   },
@@ -23,6 +23,7 @@
     "@types/react-router-dom": "5.1.2",
     "@typescript-eslint/eslint-plugin": "2.6.1",
     "@typescript-eslint/parser": "2.6.1",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "3.2.0",
     "eslint": "6.6.0",
     "eslint-plugin-react": "7.16.0",
