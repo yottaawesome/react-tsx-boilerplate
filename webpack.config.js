@@ -51,13 +51,13 @@ module.exports = (env, argv) => {
                         isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
                         {
                             loader: 'css-loader',
-                            // As of css-loader 3, the options have changed
+                            // As of css-loader 4, the options have changed
                             // https://github.com/webpack-contrib/css-loader
                             options: {
                                 modules: {
-                                    localIdentName: '[folder]__[local]__[hash:base64:5]'
-                                },
-                                localsConvention: 'camelCase'
+                                    localIdentName: '[folder]__[local]__[hash:base64:5]',
+                                    exportLocalsConvention: 'camelCase'
+                                }
                             }
                         },
                         {
