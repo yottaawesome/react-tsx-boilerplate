@@ -6,7 +6,7 @@
   "scripts": {
     "build-dev": "webpack --mode=development",
     "build-prod": "webpack --mode=production",
-    "start": "webpack-dev-server --hot --port 8080;",
+    "start": "webpack serve --hot --port 8080;",
     "test": "",
     "lint": "npx eslint --ext .ts,tsx ."
   },
