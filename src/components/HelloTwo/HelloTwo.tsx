@@ -1,10 +1,17 @@
 import * as React from 'react';
 import * as styles from './styles.module.scss';
 
-// 'HelloProps' describes the shape of props.
-// State is never set so we use the '{}' type.
-export class HelloTwo extends React.Component<{}, {}> {
-    render(): JSX.Element {
-        return <h1 className={styles.root}>Hello again from React!!</h1>;
-    }
+// Here, we'll just define some dummy interfaces for props and state,
+// just as an example
+interface Props {
+  someProp: string | null;
+}
+interface State {
+  someState: string | null;
+}
+
+export class HelloTwo extends React.Component<Props, State> {
+  render(): JSX.Element {
+    return <h1 className={styles.root}>Hello again from React!!</h1>;
+  }
 }
