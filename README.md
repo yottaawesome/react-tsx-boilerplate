@@ -26,7 +26,7 @@ You can optionally use `docker-compose` to start up a container that builds and 
 
 ## Debugging
 
-Debugging settings are included for VS Code; you'll need the [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) extension.
+Debugging settings are included for VS Code.
 
 Linting settings are also included for VS Code; you'll need the [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for VS Code.
 
