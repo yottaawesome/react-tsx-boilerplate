@@ -3,8 +3,8 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import {
   Route,
+  Routes,
   HashRouter as Router,
-  Switch,
   Link 
 } from 'react-router-dom';
 
@@ -22,10 +22,10 @@ class App extends React.Component {
               <Link to="/">Home</Link>
               <Link to="/Two">Two</Link>
             </nav>
-            <Switch>
-              <Route exact path="/" component={HelloOne} />
-              <Route exact path="/Two" component={HelloTwo} />
-            </Switch>
+            <Routes>
+              <Route path="/" element={<HelloOne/>} />
+              <Route path="/Two" element={<HelloTwo someProp='blah'/>} />
+            </Routes>
           </div>
         </Router>
       );

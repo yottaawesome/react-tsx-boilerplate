@@ -9,9 +9,12 @@ module.exports = (env, argv) => {
     return {
         entry: './src/index.tsx',
 
+        mode: isDevelopment ? 'development' : 'production',
+
         output: {
             path: path.resolve(__dirname, 'dist'),
-            filename: '[contenthash].[name].js'
+            filename: '[contenthash].[name].js',
+            publicPath: ''
         },
 
         // Enable sourcemaps for debugging webpack's output.
@@ -24,7 +27,9 @@ module.exports = (env, argv) => {
         },
 
         devServer: {
-            contentBase: './dist'
+          static : {
+            directory : path.join(__dirname, "dist/")
+          }
         },
 
         module: {
