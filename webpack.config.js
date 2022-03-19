@@ -13,8 +13,7 @@ module.exports = (env, argv) => {
 
         output: {
             path: path.resolve(__dirname, 'dist'),
-            filename: '[contenthash].[name].js',
-            publicPath: ''
+            filename: '[contenthash].[name].js'
         },
 
         // Enable sourcemaps for debugging webpack's output.
@@ -23,13 +22,14 @@ module.exports = (env, argv) => {
         resolve: {
             modules: ['node_modules'],
             // Add '.ts' and '.tsx' as resolvable extensions.
-            extensions: ['.js', '.ts', '.tsx']
+            extensions: ['.js', '.ts', '.tsx', ".js", ".css", ".scss"]
         },
 
         devServer: {
           static : {
             directory : path.join(__dirname, "dist/")
-          }
+          },
+          historyApiFallback: true
         },
 
         module: {
@@ -94,7 +94,7 @@ module.exports = (env, argv) => {
             new MiniCssExtractPlugin({
                 // Options similar to the same options in webpackOptions.output
                 // both options are optional
-                filename: "main.css"
+                filename: '[name].[contenthash].css'
             }),
             new HTMLWebpackPlugin({
                 template: path.join(__dirname, './src/index.html')

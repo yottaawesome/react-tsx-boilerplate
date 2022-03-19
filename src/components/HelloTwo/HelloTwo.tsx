@@ -12,6 +12,6 @@ interface State {
 
 export class HelloTwo extends React.Component<Props, State> {
   render(): JSX.Element {
-    return <h1 className={styles.root}>Hello again from React!!</h1>;
+    return <h1 className={styles.default.root}>Hello again from React!!</h1>;
   }
 }
