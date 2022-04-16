@@ -4,10 +4,6 @@
 
 This repository is a minimal boilerplate repo for React, WebPack and TypeScript. It comes with `react-router-dom` and modular SCSS support set up, but does not come with Redux or any other React state management library.
 
-## Status
-
-This project is being continually maintained.
-
 ## Using the code
 
 The `src` folder contains a basic example app to get started.
