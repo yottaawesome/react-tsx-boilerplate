@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/yottaawesome/react-tsx-boilerplate.svg?branch=master)](https://travis-ci.org/yottaawesome/react-tsx-boilerplate) ![Dependencies](https://david-dm.org/yottaawesome/react-tsx-boilerplate.svg) ![Dev-Dependencies](https://david-dm.org/yottaawesome/react-tsx-boilerplate/dev-status.svg)
-
 # React TSX Boilerplate
 
 ## Introduction
