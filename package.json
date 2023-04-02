@@ -18,33 +18,33 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/react": "18.0.29",
+    "@types/react": "18.0.31",
     "@types/react-dom": "18.0.11",
     "@types/react-router-dom": "5.3.3",
-    "@typescript-eslint/eslint-plugin": "5.56.0",
-    "@typescript-eslint/parser": "5.56.0",
+    "@typescript-eslint/eslint-plugin": "5.57.0",
+    "@typescript-eslint/parser": "5.57.0",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "6.7.3",
-    "eslint": "8.36.0",
+    "eslint": "8.37.0",
     "file-loader": "6.2.0",
     "html-webpack-plugin": "5.5.0",
     "mini-css-extract-plugin": "2.7.5",
     "sass": "1.60.0",
-    "sass-loader": "13.2.1",
+    "sass-loader": "13.2.2",
     "source-map-loader": "4.0.1",
     "style-loader": "3.3.2",
     "ts-loader": "9.4.2",
-    "typescript": "5.0.2",
+    "typescript": "5.0.3",
     "url-loader": "4.1.1",
-    "webpack": "5.76.3",
+    "webpack": "5.77.0",
     "webpack-cli": "5.0.1",
-    "webpack-dev-server": "4.13.1"
+    "webpack-dev-server": "4.13.2"
   },
   "dependencies": {
     "core-js": "3.29.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-router-dom": "6.9.0",
+    "react-router-dom": "6.10.0",
     "save": "2.9.0"
   }
 }
